@@ -14,7 +14,7 @@ ostanha.addEventListener("change", () => {
   let shahrData = ostanData[ostanha.value];
   console.log(shahrData);
   console.log(shahrData.length);
-  
+
   shahrha.innerText = "";
   shahrData.forEach((city) => {
     let newElem = document.createElement("option");
@@ -22,3 +22,7 @@ ostanha.addEventListener("change", () => {
     shahrha.append(newElem);
   });
 });
+
+let d = new Date();
+d.toLocaleString()
+console.log(d);
